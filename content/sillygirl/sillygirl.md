@@ -11,7 +11,7 @@ categories:
 tags:
   - 傻妞
 
-url: sillygirl/摆弄傻妞全记录.html
+url: sillygirl/sillygirl.html
 toc: true
 weight: 1
 ---
@@ -20,7 +20,7 @@ weight: 1
 
 ## 前置技能
 
-[安装Docker](https://flowus.cn/60731c5e-9615-4b2c-9add-9fcbb32423db)
+[安装Docker](install-docker.html)
 
 [安装nark](https://flowus.cn/782c5331-9ce7-420e-800e-62d8aae8ee49)
 
