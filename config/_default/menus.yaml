@@ -29,7 +29,7 @@ main:
   - identifier: sillygirl
     name: 傻妞专题
     pageref: /sillygirl
-    pre: <i class="fa-solid fa-child-dress"></i>
+    pre: fa-solid fa-child-dress
     weight: 3
   - identifier: archives
     name: 归档
