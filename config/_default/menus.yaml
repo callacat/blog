@@ -26,10 +26,10 @@ main:
     pageref: /about.html
     pre: user
     weight: 2
-  - identifier: flinks
-    name: 站点示例
-    pageref: /flinks.html
-    pre: thumbs-up
+  - identifier: sillyGirl
+    name: 傻妞专题
+    pageref: /sillyGirl
+    pre: 👧
     weight: 3
   - identifier: archives
     name: 归档
