@@ -26,10 +26,10 @@ main:
     pageref: /about.html
     pre: user
     weight: 2
-  - identifier: sillyGirl
+  - identifier: sillygirl
     name: 傻妞专题
-    pageref: /sillyGirl
-    pre: 👧
+    pageref: /sillygirl
+    pre: <i class='fas fa-paper-plane'></i>
     weight: 3
   - identifier: archives
     name: 归档
