@@ -12,7 +12,7 @@ tags:
   - 傻妞
   - Docker
 
-url: sillygirl/install-portainer.html
+url: sillygirl/install-docker/install-portainer.html
 toc: true
 ---
 ## 安装
