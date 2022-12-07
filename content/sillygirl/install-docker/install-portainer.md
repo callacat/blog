@@ -1,5 +1,5 @@
 ---
-title: "安装Docker"
+title: "安装portainer"
 description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,Docker"
 
@@ -29,5 +29,5 @@ toc: true
 
 点击 **Deploy the container 即可自动更新**
 
-![image.png](install-portainer/image 1.png)
+![image.png](install-portainer/image1.png)
 
