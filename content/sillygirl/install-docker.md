@@ -17,4 +17,4 @@ toc: true
 ---
 > 讲道理，这个网上到处都是教程，这你不会装，建议放弃
 
-推荐 [安装portainer](install-docker/install-portainer.md)
+推荐 [安装portainer](install-docker/install-portainer.html)
