@@ -40,7 +40,7 @@ weight: 1
 
 [常见问题Q&A](Q&A.html)
 
-[傻妞更新记录](updateRecord.html) 尚未完成
+[傻妞更新记录](updateRecord.html)
 
 [使用小技巧](skill.html)
 

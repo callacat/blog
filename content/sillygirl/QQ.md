@@ -75,7 +75,20 @@ set qq access_token <自定义>
 ```Plain Text
 2022/12/03 22:02:38.008 [I]  QQ机器人(123456789)已连接。
 ```
+
 表示连接正常
+
+## 对接oicq
+
+oicq对接方式是一样的，区别只是配置文件修改的位置不同
+
+打开oicq的配置文件`config.js`，找到`access_token`，同样修改为上面设置的 access_token
+
+然后在`ws_reverse_url`中填写傻妞的对接地址
+
+![image.png](QQ/image3.png)
+
+随后重启oicq
 
 ## 你有很多疑问？
 
