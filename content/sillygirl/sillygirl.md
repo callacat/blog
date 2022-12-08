@@ -50,7 +50,7 @@ weight: 1
 
 [对接微信](WX.html) 尚未完成
 
-[对接TG](TG.html)) 尚未完成
+[对接TG](TG.html)
 
 [对接微信公众号](WXMP.html) 尚未完成
 
