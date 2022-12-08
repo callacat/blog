@@ -34,7 +34,7 @@ weight: 1
 
 ## 基础使用
 
-[从得到到抛弃](https://flowus.cn/8ecddc8b-b803-46a0-b950-b6448d3c0d00)
+[从得到到抛弃](gettothrow.html)
 
 [基本使用](https://flowus.cn/a17c40b1-5a93-48dc-a507-a72394d67b54)
 
