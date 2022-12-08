@@ -30,4 +30,3 @@ toc: true
 点击 **Deploy the container 即可自动更新**
 
 ![image.png](install-portainer/image1.png)
-
