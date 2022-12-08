@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞"
 
 date: 2022-12-07T23:13:44+08:00
-lastmod: 2022-12-07T23:24:03+08:00
+lastmod: 2022-12-08T21:40:45+08:00
 
 categories:
   - 傻妞专题
@@ -40,7 +40,7 @@ weight: 1
 
 [常见问题Q&A](Q&A.html)
 
-[傻妞更新记录](updateRecord.html) ) 尚未完成
+[傻妞更新记录](updateRecord.html) 尚未完成
 
 [使用小技巧](skill.html)
 
@@ -48,19 +48,18 @@ weight: 1
 
 [对接QQ](QQ.html)
 
-[对接微信](WX.html)) 尚未完成
+[对接微信](WX.html) 尚未完成
 
 [对接TG](TG.html)) 尚未完成
 
-[对接微信公众号](WXMP.html)) 尚未完成
+[对接微信公众号](WXMP.html) 尚未完成
 
 ## 扩展用法
 
-[返利配置](https://flowus.cn/2e840ff8-ee15-4b2b-9085-6f4c1160f604)
+[返利配置](rebate.html) 尚未完成
 
-[活动监控](https://flowus.cn/1df9b0ba-47d4-4666-a76a-63f829c73b35)
+[活动监控](activity.html) 尚未完成
 
-[对接短信登录](https://flowus.cn/4f1a8449-d256-46f1-9924-6f9778b7f988)
+[对接短信登录](message.html) 尚未完成
 
-[尝试编写一个简单的脚本并发布](https://flowus.cn/dc8159e4-9b1e-4668-8b88-72357a8c1dfc)
-
+[尝试编写一个简单的脚本并发布](write-script.html) 尚未完成
