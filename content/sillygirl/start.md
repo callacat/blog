@@ -161,4 +161,4 @@ sub://T4EywWN46ztYBhHNdOl6Ti2iBX/kAK1VnKE4z54eRucLpuoajY1YK7XDzeZ1KsMAoENOg344Zr
 
 ## 新增脚本
 
-[尝试编写一个简单的脚本并发布](write-script)
+[尝试编写一个简单的脚本并发布](write-script.html)
