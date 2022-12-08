@@ -1,5 +1,5 @@
 ---
-title: "安装go-cqhttp"
+title: "安装oicq"
 description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,Docker,QQ"
 
@@ -17,7 +17,7 @@ url: sillygirl/install-oicq.html
 toc: true
 ---
 > node-onebot就是旧版的oicq
-个人推荐[安装go-cqhttp](https://flowus.cn/ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0)
+个人推荐[安装go-cqhttp](install-go-cqhttp.html)
 
 oicq项目地址 <a name="section1"></a>
 
@@ -82,7 +82,7 @@ rm -rf "$(pwd)" ##删除映射目录
 
 ## 其他
 
-想了解更多 oicq 的知识或者疑难解答，请猛击 <a href="#section1">oice项目地址</a>
+想了解更多 oicq 的知识或者疑难解答，请猛击 <a href="#section1">oicq项目地址</a>
 
 # 对接傻妞
 
