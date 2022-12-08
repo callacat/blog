@@ -30,7 +30,8 @@ toc: true
     </pre>
     </details>
 
-## 如何正确的提问？
+## 如何正确的提问？<a name="section1"></a>
+
 
   - 请先尝试理解本系列文章下的所有内容，通常情况下可以解决大部分问题
 
@@ -206,6 +207,7 @@ toc: true
 <details>
 <summary>点击显示答案</summary>
 <pre>
-请查看<a herf="sillygirl/Q&A.html#如何正确的提问？">如何正确的提问？</a>或者放弃使用傻妞，推荐使用奥特曼
+请查看<a href="#section1">如何正确的提问？</a>或者放弃使用傻妞，推荐使用奥特曼
+
 </pre>
 </details>
