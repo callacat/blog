@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞"
 
 date: 2022-12-08T16:40:59+08:00
-lastmod: 2022-12-08T21:19:58+08:00
+lastmod: 2022-12-09 00:54:32+08:00
 
 categories:
   - 傻妞专题
@@ -26,7 +26,8 @@ toc: true
         - TG群组 <a href="https://t.me/trialerr">好好学习群</a>
         - QQ群组 <a href="https://jq.qq.com/?_wv=1027&k=rtL5kSVO">傻妞技术交流群</a> PS:近乎死群
         - 微信群组 PS:早就死群了
-        - 项目地址 <a href="https://github.com/cdle/sillyGirl">https://github.com/cdle/sillyGirl</a> PS：没什么用，只能下载最新版本
+        - 项目地址 <a href="https://github.com/cdle/sillyGirl">https://github.com/cdle/sillyGirl</a>
+        PS：没什么用，只能下载最新版本
     </pre>
     </details>
 
@@ -70,7 +71,8 @@ toc: true
   <details>
   <summary>那是因为你用同样的方式启动了两次，第二次就会被杀死</summary>
   <pre>
-    - 解决方法也很简单，杀死以前的傻妞，重新启动就好了，至于怎么操作，取决于你是什么样的启动方式，参考
+    - 解决方法也很简单，杀死以前的傻妞，重新启动就好了，至于怎么操作，取决于你是什么样的启动方式，
+    参考 [停止运行](getToThrow.html#停止运行)
     - 或者换Docker版
   </pre>
   </details>
@@ -203,6 +205,7 @@ toc: true
 <details>
 <summary>点击显示答案</summary>
 <pre>
-如果这里没有你遇到的问题，那么群记录可能有，你可以翻一翻记录，群里提问前清闲查看<a href="#section1">如何正确的提问？</a>或者放弃使用傻妞，推荐使用奥特曼
+如果这里没有你遇到的问题，那么群记录可能有，你可以翻一翻记录，群里提问前清闲查看<a href="#section1">如何正确的提问？</a>
+或者放弃使用傻妞，推荐使用奥特曼
 </pre>
 </details>
