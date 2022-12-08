@@ -28,7 +28,7 @@ bash <(curl -sSL http://app.imdraw.com/install.sh)
 
 傻妞将自动下载到 `/usr/local/sillyGirl` 目录下，
 
-#### 进入终端交互
+### 进入终端交互
 
 ```Shell
 /usr/local/sillyGirl/sillyGirl -t
@@ -38,7 +38,7 @@ bash <(curl -sSL http://app.imdraw.com/install.sh)
 
 按住 `Ctrl + c` 退出终端交互模式
 
-#### 仅看日志
+### 仅看日志
 
 ```Shell
 /usr/local/sillyGirl/sillyGirl
@@ -48,7 +48,7 @@ bash <(curl -sSL http://app.imdraw.com/install.sh)
 
 按住 `Ctrl + c` 退出
 
-#### 后台运行
+### 后台运行
 
 ```Shell
 /usr/local/sillyGirl/sillyGirl -d
@@ -56,28 +56,28 @@ bash <(curl -sSL http://app.imdraw.com/install.sh)
 
 此命令启动后无法看日志
 
-#### 停止运行 
+### 停止运行 
 
 ```Shell
-ps -A|grep sillyGirl ####显示进程号
-kill -9 xxxxxx ####杀掉进程，精准打击?
+ps -A|grep sillyGirl ###显示进程号
+kill -9 xxxxxx ###杀掉进程，精准打击?
 ```
 
 ![image.png](getToThrow/image2.png)
 
-#### 添加自启
+### 添加自启
 
 参考懒羊羊小姐姐的教程，仅限使用systemd服务的系统
 
 [Linux系统服务systemd进程守护之sillyGirl实践 - 科技玩家](https://www.kejiwanjia.com/jiaocheng/zheteng/notes/74594.html##systemctl)
 
-#### 卸载傻妞
+### 卸载傻妞
 
-先执行上面的[停止运行](####停止运行)，再执行以下命令
+先执行上面的[停止运行](###停止运行)，再执行以下命令
 
 ```Shell
-rm -rf /usr/local/sillyGirl ####删除傻妞本体
-rm -rf /etc/sillyGirl ####删除数据库
+rm -rf /usr/local/sillyGirl ###删除傻妞本体
+rm -rf /etc/sillyGirl ###删除数据库
 ```
 
 ## Docker部署
@@ -103,19 +103,19 @@ dswang2233/silly
 
 将自动在后台运行且随Docker服务自启
 
-#### 查看日志
+### 查看日志
 
 ```Shell
 docker logs -f sillyGirl
 ```
 
-#### 停止运行
+### 停止运行
 
 ```Shell
 docker stop sillyGirl
 ```
 
-#### 更新
+### 更新
 
 ```Shell
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -cR sillyGirl
@@ -124,16 +124,16 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtow
 ![为了截图我修改了容器名为 sg](getToThrow/image4.png)
 为了截图我修改了容器名为 **sg**
 
-#### 卸载
+### 卸载
 
 ```Shell
-docker stop sillyGirl ####首先停止运行容器
-docker container rm sillyGirl  ####删除容器
-docker imagerm dswang2233/silly  ####删除镜像
-rm -rf "$(pwd)" ####删除映射目录
+docker stop sillyGirl ###首先停止运行容器
+docker container rm sillyGirl  ###删除容器
+docker imagerm dswang2233/silly  ###删除镜像
+rm -rf "$(pwd)" ###删除映射目录
 ```
 
-#### 管理
+### 管理
 
 推荐使用 Poetainer管理 [安装portainer](install-docker/install-portainer.html)
 
