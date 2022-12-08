@@ -124,6 +124,8 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtow
 ![为了截图我修改了容器名为 sg](getToThrow/image4.png)
 为了截图我修改了容器名为 **sg**
 
+或者 [快速更新容器](install-docker/install-portainer.html#快速更新容器)
+
 ### 卸载
 
 ```Shell
@@ -138,3 +140,5 @@ rm -rf "$(pwd)" ###删除映射目录
 推荐使用 Poetainer管理 [安装portainer](install-docker/install-portainer.html)
 
 ## 傻妞的文件在哪里
+
+点击查看 [傻妞的相关文件在哪里](Q&A.html#傻妞的相关文件在哪里)

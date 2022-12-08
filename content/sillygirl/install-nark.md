@@ -17,7 +17,7 @@ url: sillygirl/install-nark.html
 toc: true
 ---
 > 首先你得有授权，没有请忽略
-其次请先 [安装Docker](install-Docker.html)
+其次请先 [安装Docker](install-docker.html)
 
 ## 手动安装
 
