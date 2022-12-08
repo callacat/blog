@@ -12,7 +12,7 @@ mainSections: ["post","sillygirl"]
 yearFormat: "2006"
 monthFormat: "01-02"
 dateFormat: "2006-01-02"
-timeFormat: "2006-01-02T15:04:05-07:00"
+timeFormat: "2006-01-02 15:04:05-07:00"
 
 # 页面模式
 # Schemes
@@ -376,7 +376,7 @@ followMe:
 # Easily browse and edit blog source code online.
 postEdit:
   enable: true
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
+  url: https://github.com/callacat/blog/tree/main/content/
 
 
 # 设置文本的对齐方式
