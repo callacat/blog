@@ -206,6 +206,6 @@ toc: true
 <details>
 <summary>点击显示答案</summary>
 <pre>
-请查看<a herf="Q&A.html#如何正确的提问？">如何正确的提问？</a>或者放弃使用傻妞，推荐使用奥特曼
+请查看<a herf="sillygirl/Q&A.html#%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%8F%90%E9%97%AE">如何正确的提问？</a>或者放弃使用傻妞，推荐使用奥特曼
 </pre>
 </details>
