@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,QQ"
 
 date: 2022-12-08T18:05:00+08:00
-lastmod: 2022-12-08T18:12:11+08:00
+lastmod: 2022-12-08T20:52:40+08:00
 
 categories:
   - 傻妞专题
@@ -15,7 +15,7 @@ tags:
 url: sillygirl/QQ.html
 toc: true
 ---
-此记录基于2022年12月2号的版本，在此之前或之后的版本仅供参考。以下任何命令如果没有说明则表示是在交互界面执行。
+> 此记录基于2022年12月2号的版本，在此之前或之后的版本仅供参考。以下任何命令如果没有说明则表示是在交互界面执行。
 
 > 首先，你必须正确安装傻妞，请参考 [从得到到抛弃](getToThrow.html)
 然后，你需要完成中的 [安装oicq](install-oicq.html)或[安装go-cqhttp](install-go-cqhttp.html)

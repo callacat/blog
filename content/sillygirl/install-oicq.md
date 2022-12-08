@@ -1,7 +1,25 @@
+---
+title: "安装go-cqhttp"
+description: "仅分享新版傻妞使用记录，如有不对请指正"
+keywords: "傻妞,Docker,QQ"
+
+date: 2022-12-08T20:37:46+08:00
+lastmod: 2022-12-08T20:52:30+08:00
+
+categories:
+  - 傻妞专题
+tags:
+  - 傻妞
+  - Docker
+  - QQ
+
+url: sillygirl/install-oicq.html
+toc: true
+---
 > node-onebot就是旧版的oicq
 个人推荐[安装go-cqhttp](https://flowus.cn/ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0)
 
-oicq项目地址 
+oicq项目地址 <a name="section1"></a>
 
 [github.com](https://github.com/takayama-lily/oicq/tree/master)
 
@@ -22,12 +40,12 @@ docker run -itd \
 dswang2233/oicq:latest QQ号
 ```
 
-![打码的地方是QQ号](安装oicq+bbc46811-a779-4993-b38d-88e172343c76/image.png)
+![打码的地方是QQ号](install-oicq/image.png)
 打码的地方是QQ号
 
 此时当前目录下自动生成了配置文件
 
-![image.png](安装oicq+bbc46811-a779-4993-b38d-88e172343c76/image 1.png)
+![image.png](install-oicq/image1.png)
 
 ## 查看日志
 
@@ -35,7 +53,7 @@ dswang2233/oicq:latest QQ号
 docker logs -f oicq
 ```
 
-![image.png](安装oicq+bbc46811-a779-4993-b38d-88e172343c76/image 2.png)
+![image.png](install-oicq/image2.png)
 
 此时可以看到要求登录，按住 `Ctrl+ c`退出日志
 
@@ -47,28 +65,25 @@ docker attach oicq
 
 进入交互模式后输入密码，推荐密码登录，如果你想扫码登录直接回车
 
-![image.png](安装oicq+bbc46811-a779-4993-b38d-88e172343c76/image 3.png)
+![image.png](install-oicq/image3.png)
 
 按住 `Ctrl+ d`退出，此时oicq会重启且在后台运行，不用管了。
 
- 
+[为什么使用oicq登录提示当前QQ版本过低？](Q&A.html#为什么使用oicq登录提示当前qq版本过低)
 
 ## 卸载oicq
 
 ```Shell
 docker stop oicq ##首先停止运行容器
 docker container rm oicq  ##删除容器
-docker image rm dswang2233/oicq  ##删除镜像
+docker imagerm dswang2233/oicq  ##删除镜像
 rm -rf "$(pwd)" ##删除映射目录
 ```
 
 ## 其他
 
-想了解更多 oicq 的知识或者疑难解答，请猛击 
+想了解更多 oicq 的知识或者疑难解答，请猛击 <a href="#section1">oice项目地址</a>
 
 # 对接傻妞
 
-[对接QQ](https://flowus.cn/ba1685e8-7680-45b5-8c9e-167761163cd4)
-
-
-
+[对接QQ](QQ.html)

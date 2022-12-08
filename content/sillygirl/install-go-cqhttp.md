@@ -16,7 +16,7 @@ tags:
 url: sillygirl/install-go-cqhttp.html
 toc: true
 ---
-go-cqhttp项目地址
+go-cqhttp项目地址 <a name="section1"></a>
 
 [GitHub - Mrs4s/go-cqhttp: cqhttp的golang实现，轻量、原生跨平台.](https://github.com/Mrs4s/go-cqhttp)
 
@@ -72,7 +72,7 @@ nano config.yml
 
 ![image.png](install-go-cqhttp/image3.png)
 
-注意：每个冒号后面都有一个空格，再写QQ号。密码填写在两个单引号之间
+> 注意：每个冒号后面都有一个空格，再写QQ号。密码填写在两个单引号之间
 
 按住`Ctrl + x`输入 `y`然后回车一下保存并退出编辑
 
@@ -84,9 +84,9 @@ nano config.yml
 docker restart cqhttp
 ```
 
-![image.png](安装go-cqhttp/image4.png)
+![image.png](install-go-cqhttp/image4.png)
 
-黄字提示无需在意 
+黄字提示无需在意 [为什么我登录QQ框架/微信框架提示被风控/冻结/封号](Q&A.html#为什么我登录qq框架微信框架提示被风控冻结封号)
 
 ## 卸载go-cqhttp
 
@@ -99,11 +99,8 @@ rm -rf "$(pwd)" ##删除映射目录
 
 ## 其他
 
-想了解更多go-cqhttp的知识或者疑难解答，请猛击 
+想了解更多go-cqhttp的知识或者疑难解答，请猛击 <a href="#section1">go-cqhttp项目地址</a>
 
 # 对接傻妞
 
 [对接QQ](QQ.html)
-
-
-
