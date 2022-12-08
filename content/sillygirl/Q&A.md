@@ -18,7 +18,7 @@ toc: true
 
 ## 我在哪里可以找到傻妞官方客服？
 
-  - 没有客服，滚
+- 没有客服，滚
     <details>
     <summary>但是有其他联系方式</summary>
     <pre>
@@ -32,11 +32,11 @@ toc: true
 
 <a name="section1"></a>
 
-## 如何正确的提问？ 
+## 如何正确的提问？
 
-  - 请先尝试理解本系列文章下的所有内容，通常情况下可以解决大部分问题
+- 请先尝试理解本系列文章下的所有内容，通常情况下可以解决大部分问题
 
-  - 首先作者or群友or网友不是你的免费保姆，提问前请放平心态
+- 首先作者or群友or网友不是你的免费保姆，提问前请放平心态
 
     <details>
     <summary>提问请携带以下内容</summary>
@@ -66,6 +66,7 @@ toc: true
   没有，下一个
 
 ## 为什么我一启动就提示被 **killed/杀死** 呢
+
   <details>
   <summary>那是因为你用同样的方式启动了两次，第二次就会被杀死</summary>
   <pre>
@@ -76,7 +77,7 @@ toc: true
 
 ## 为什么我发命令傻妞没有响应，是不是被玩坏了
 
-  - 是的呢，建议卸载
+- 是的呢，建议卸载
     <details>
     <summary>或者用排除法，大部分问题都可以用此排除法解决</summary>
     <pre>
@@ -89,11 +90,11 @@ toc: true
 
 ## 为什么在tg平台别人发命令没有响应
 
-  - 先发送 listen
+- 先发送 listen
 
   ![image.png](Q&A/image.png)
 
-  - 不行查看上一条和下一条
+- 不行查看上一条和下一条
 
 ## 为什么我QQ发消息没反应啊
 
@@ -102,12 +103,13 @@ toc: true
   <pre>
     - 某些命令仅限管理员使用
     - 某些插件设置了仅在某些平台生效
-    - 尝试 
+    - 尝试
     - 或者查看上两条
   </pre>
   </details>
 
 ## 为什么QQ群消息无法撤回啊
+
   <details>
   <summary>点击查看</summary>
   <pre>
@@ -116,7 +118,8 @@ toc: true
   </pre>
   </details>
 
-##  我忘了我的web帐号密码怎么办
+## 我忘了我的web帐号密码怎么办
+
   <details>
   <summary>建议删库跑路</summary>
   <pre>
@@ -131,25 +134,25 @@ toc: true
   </pre>
   </details>
 
-##  为什么你都是用Docker部署
+## 为什么你都是用Docker部署
 
   因为方便，懂得都懂
 
-##  微信服务号怎么xxxx
+## 微信服务号怎么xxxx
 
   管理员在服务号发送 `wxsv init`
 
-##  为什么使用oicq登录提示当前QQ版本过低？
+## 为什么使用oicq登录提示当前QQ版本过低？
 
   那是QQ的事，与傻妞无关，建议 [安装go-cqhttp](install-go-cqhttp.html)
 
-##  旧版傻妞是否可以直接发送命令升级到最新版？
+## 旧版傻妞是否可以直接发送命令升级到最新版？
 
   ![image.png](Q&A/image1.png)
 
   建议升级前备份数据库
 
-##  为什么我登录QQ框架/微信框架提示被风控/冻结/封号
+## 为什么我登录QQ框架/微信框架提示被风控/冻结/封号
 
   腾讯的问题，与傻妞无关。建议换号或者放弃
 
@@ -159,29 +162,30 @@ toc: true
 
   先来看本体所在目录
 
-  - /use/local/sillyGirl
+- /use/local/sillyGirl
 
-    - sillyGirl #傻妞本体
+  - sillyGirl #傻妞本体
 
-    - conf/ #旧版遗留下来的配置文件目录，已弃用
+  - conf/ #旧版遗留下来的配置文件目录，已弃用
 
-      - config.yaml
+    - config.yaml
 
   然后是数据库所在目录
 
-  - /etc/sillyGirl
+- /etc/sillyGirl
 
-    - scripts/ #旧版存放脚本的目录，已弃用
+  - scripts/ #旧版存放脚本的目录，已弃用
 
-    - public/ #旧版存放插件和插件配置文件的目录，已弃用
+  - public/ #旧版存放插件和插件配置文件的目录，已弃用
 
-      - download/ #未知作用
+    - download/ #未知作用
 
-      - list.json #未知作用
+    - list.json #未知作用
 
-    - sillyGirl.cache #傻妞的数据库
+  - sillyGirl.cache #傻妞的数据库
 
 ## 为什么有些插件别人的傻妞正常但是我不能用？
+
   <details>
   <summary>点击查看</summary>
   <pre>
@@ -193,16 +197,6 @@ toc: true
 ## 网页web面板打不开/页面被喵咪劫走了
 
   ![image.png](Q&A/image2.png)
-
-
-
-
-
-
-
-
-
-
 
 ## 这里没有我遇到的问题？
 
