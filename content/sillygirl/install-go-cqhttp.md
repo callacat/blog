@@ -1,3 +1,21 @@
+---
+title: "安装go-cqhttp"
+description: "仅分享新版傻妞使用记录，如有不对请指正"
+keywords: "傻妞,Docker,QQ"
+
+date: 2022-12-08T17:58:56+08:00
+lastmod: 2022-12-08T16:41:07+08:00
+
+categories:
+  - 傻妞专题
+tags:
+  - 傻妞
+  - Docker
+  - QQ
+
+url: sillygirl/install-go-cqhttp.html
+toc: true
+---
 go-cqhttp项目地址
 
 [GitHub - Mrs4s/go-cqhttp: cqhttp的golang实现，轻量、原生跨平台.](https://github.com/Mrs4s/go-cqhttp)
@@ -19,7 +37,7 @@ docker run -itd \
 dswang2233/gocqhttp
 ```
 
-![image.png](安装go-cqhttp+ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0/image.png)
+![image.png](install-go-cqhttp/image.png)
 
 ## 查看日志
 
@@ -27,7 +45,7 @@ dswang2233/gocqhttp
 docker logs -f cqhttp
 ```
 
-![image.png](安装go-cqhttp+ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0/image 1.png)
+![image.png](install-go-cqhttp/image1.png)
 
 按住`Ctrl + c` 退出日志
 
@@ -39,7 +57,7 @@ docker attach cqhttp
 
 输入数字 3 会在当前目录下自动创建配置文件
 
-![image.png](安装go-cqhttp+ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0/image 2.png)
+![image.png](install-go-cqhttp/image2.png)
 
 按住`Ctrl + c` 退出交互
 
@@ -48,10 +66,11 @@ docker attach cqhttp
 ```Shell
 nano config.yml
 ```
+没有安装`nano`的把`nano`换成`vi`
 
 建议使用密码登录
 
-![image.png](安装go-cqhttp+ef63fbc0-37ce-4d04-bb1e-4f31e1503aa0/image 3.png)
+![image.png](install-go-cqhttp/image3.png)
 
 注意：每个冒号后面都有一个空格，再写QQ号。密码填写在两个单引号之间
 
@@ -65,7 +84,7 @@ nano config.yml
 docker restart cqhttp
 ```
 
-![image.png](安装go-cqhttp/image 4.png)
+![image.png](安装go-cqhttp/image4.png)
 
 黄字提示无需在意 
 
@@ -74,7 +93,7 @@ docker restart cqhttp
 ```Shell
 docker stop cqhttp ##首先停止运行容器
 docker container rm cqhttp  ##删除容器
-docker image rm dswang2233/gocqhttp  ##删除镜像
+docker imagerm dswang2233/gocqhttp  ##删除镜像
 rm -rf "$(pwd)" ##删除映射目录
 ```
 
@@ -84,7 +103,7 @@ rm -rf "$(pwd)" ##删除映射目录
 
 # 对接傻妞
 
-[对接QQ](https://flowus.cn/ba1685e8-7680-45b5-8c9e-167761163cd4)
+[对接QQ](QQ.html)
 
 
 
