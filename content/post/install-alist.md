@@ -1,15 +1,16 @@
 ---
 title: "安装Alist"
 description: ""
-keywords: "Alist"
+keywords: "Alist,fly"
 
 date: 2022-12-10 00:51:48+08:00
-lastmod: 2022-12-09 00:54:32+08:00
+lastmod: 2022-12-10 19:21:18+08:00
 
 categories:
   - 博客
 tags:
   - alist
+  - fly
 
 url: post/install-alist.html
 toc: true
@@ -53,11 +54,11 @@ curl -L https://fly.io/install.sh | sh
 其他系统
 
 ```macOS
-brew install flyctl
+brew install flyctl #MacOS
 ```
 
 ```Powershell
-iwr https://fly.io/install.ps1 -useb | iex
+iwr https://fly.io/install.ps1 -useb | iex #Windows
 ```
 
 ![image-png](alist/installFly.png)
@@ -65,7 +66,7 @@ iwr https://fly.io/install.ps1 -useb | iex
 如图提示，添加到系统环境变量
 
 ```Shell
-export FLYCTL_INSTALL="/root/.fly" #如果你不是在root目录下安装的，需要按需修改
+export FLYCTL_INSTALL="/root/.fly" #如果你不是在root目录下安装的，按实际情况修改
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 ```
 
@@ -111,9 +112,9 @@ flyctl volumes create data --size 1 --app APP_NAME #此处填写上面创建时�
 
 ## GitHub Action部署
 
-### 使用我都模板
+### 使用我的模板
 
-访问 [我的项目地址](https://github.com/callacat/fly-Alist)。点击右边绿色按钮`Use this template`再点击`Create a new repository`使用该模板.
+访问 [我的模板地址](https://github.com/callacat/fly-Alist)。点击右边绿色按钮`Use this template`再点击`Create a new repository`使用该模板.
 
 仓库创建完成后点击 `Settings`->`Secrets`->`Actions`，点击 `New repository secret`创建一个新密钥
 
