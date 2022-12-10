@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,微信"
 
 date: 2022-12-07T23:13:44+08:00
-lastmod: 2022-12-07T23:24:03+08:00
+lastmod: 2022-12-10 21:53:45+08:00
 
 categories:
   - 傻妞专题
@@ -20,5 +20,6 @@ toc: true
 
 在win上安装软件还要教吗？分享一下我收集的软件就好了
 
+[下载地址](https://cloud.dswang.ga/OneDrive/win/%E5%BE%AE%E4%BF%A1%E6%A1%86%E6%9E%B6)
 
-
+暂时只有可爱猫和千寻
