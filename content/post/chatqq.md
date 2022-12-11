@@ -119,5 +119,9 @@ docker logs -f chatqq
 
 直接私聊QQ机器人或者群里@机器人就可以了
 
+![image](chatqq/warning.png)
+
+如果出现如图的黄字提醒不要紧，不影响使用
+
 > 参考[使用Python对接OpenAi APi 实现智能QQ机器人(三) - 搭建QQ机器人](https://lucent.blog/?p=99)
 > 常见问题解答[为什么机器人对接Api之后回答速度没有官网网页上速度快？](https://lucent.blog/?p=100)
