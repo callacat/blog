@@ -631,7 +631,7 @@ comments:
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
   # Available values: livere | waline | utterances | artalk | giscus 
-  active: waline
+  active: artalk
   # 让用户自己选择使用评论插件留言
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
@@ -677,10 +677,10 @@ waline:
 # 更多配置信息请参考：https://artalk.js.org
 # Artalk comments system
 # More info see: https://artalk.js.org
-# artalk:
-#   site: "默认站点"
-#   placeholder: "请文明发言，谢谢！"
-#   server: #<your artalk server url>
+artalk:
+  site: "单身汪博客"
+  placeholder: "请文明发言，谢谢！"
+  server: https://artalk.dswang.ga
 
 # Artalk 评论插件
 # 更多配置信息请参考：

@@ -4,7 +4,7 @@ description: ""
 keywords: "Alist,fly"
 
 date: 2022-12-10 00:51:48+08:00
-lastmod: 2022-12-10 19:21:18+08:00
+lastmod: 2022-12-11 20:43:15+08:00
 
 categories:
   - 博客
@@ -131,6 +131,12 @@ name填写 `FLY_API_TOKEN`，Secret填写第一步创建的token
 以上步骤正确的话将会自动在fly构建应用。
 
 每当你修改某文件并推送时，会自动触发更新，同时我也设定了每周五早上8点更新(UTC时间)。
+
+如果需要管理文件，在拥有`fly.toml`的设备上执行命令
+
+```Shell
+flyctl ssh console
+```
 
 ### 使用
 
