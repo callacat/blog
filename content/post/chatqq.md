@@ -99,7 +99,7 @@ toc: true
 在该目录下启动容器命令，建议在国外vps上部署
 
 ```Shell
-docker run -itd \
+docker run -dit \
 --name chatqq \
 --network=host \
 --restart=always \
