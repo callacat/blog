@@ -4,7 +4,7 @@ description: "部分内容来源于网络，侵删"
 keywords: "ChatGPT,QQ"
 
 date: 2022-12-11 13:38:03+08:00
-lastmod: 2022-12-11 15:29:05+08:00
+lastmod: 2022-12-11 15:36:20+08:00
 
 categories:
   - 博客
@@ -24,7 +24,7 @@ toc: true
 
 ## 安装QQ端
 
-请参考[安装go-cqhttp](sillygirl/install-go-cqhttp.html)
+请参考[安装go-cqhttp](/sillygirl/install-go-cqhttp.html)
 
 需要修改配置文件，在最下面添加http通信设置，注意缩进
 
@@ -95,6 +95,7 @@ toc: true
 - `max_length`填写9999表示使用文字回复，填写0表示转成图片回复
 - 其他的不要动
 
+
 在该目录下启动容器命令，建议在国外vps上部署
 
 ```Shell
@@ -104,6 +105,7 @@ docker run -itd \
 --restart=always \
 -v "$(pwd)"/config.json:/app/config.json \
 dswang2233/chatqq
+```
 
 等待启动完成，查看日志
 
