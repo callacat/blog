@@ -4,7 +4,7 @@ description: "部分内容来源于网络，侵删"
 keywords: "ChatGPT,QQ"
 
 date: 2022-12-11 13:38:03+08:00
-lastmod: 2022-12-11 15:36:20+08:00
+lastmod: 2022-12-12 15:47:32+08:00
 
 categories:
   - 博客
@@ -21,6 +21,22 @@ toc: true
 > 前置条件2：科学上网环境
 
 傻妞插件openAI不是ChatGPT，是同一家公司出的两个不同的模型，不要搞混了
+
+## 获取ChatGPT参数
+
+### 获取Token
+
+略过
+
+### 获取cf_clearance
+
+![image](chatqq/cf_clearance.png)
+
+### 获取user-agent
+
+![image](chatqq/user-agent.png)
+
+如果左边没有可选择的，在对话框随便说点什么就有了
 
 ## 安装QQ端
 
@@ -67,7 +83,9 @@ toc: true
     "chatGPT": {
         "session_token": "",
         "email": "",
-        "password": ""
+        "password": "",
+        "cf_clearance": ",
+        "user_agent": "
     },
     "qq_bot": {
         "qq_no": "123456",
@@ -87,9 +105,11 @@ toc: true
 
 配置解释：
 
-- `session_token`即相当于你的Cookie，有有效期，不使用token建议使用下面的帐号密码
-- `email`openAI的帐号 如果使用token则留空
-- `password`密码 如果使用token则留空
+- `session_token`即相当于你的Cookie，有有效期，12日更新不推荐使用帐号密码
+- `email`openAI的帐号 12日更新不推荐使用帐号密码
+- `password`密码 12日更新不推荐使用帐号密码
+- `cf_clearance`填写上面获取的
+- `user_agent`填写上面获取的
 - `qq_no`对接的QQ号
 - `cqhttp_url`go-cqhttp的IP地址:端口，这里是因为go-cqhttp在本机所以这么填写
 - `max_length`填写9999表示使用文字回复，填写0表示转成图片回复
