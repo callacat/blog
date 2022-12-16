@@ -4,7 +4,7 @@ description: "部分内容来源于网络，侵删"
 keywords: "ChatGPT,QQ"
 
 date: 2022-12-11 13:38:03+08:00
-lastmod: 2022-12-12 15:47:32+08:00
+lastmod: 2022-12-16 21:51:45+08:00
 
 categories:
   - 博客
@@ -16,7 +16,9 @@ url: post/chatqq.html
 toc: true
 ---
 
-> 最近很火的ChatGPT模型对接QQ，其中的主要程序来自b站up主[呆呆木T](https://space.bilibili.com/50791870)，博客地址<https://lucent.blog/>，侵删
+>玩不成了，试试别人的吧
+
+>最近很火的ChatGPT模型对接QQ，其中的主要程序来自b站up主[呆呆木T](https://space.bilibili.com/50791870)，博客地址<https://lucent.blog/>，侵删
 > 前置条件1：openAI帐号
 > 前置条件2：科学上网环境
 
