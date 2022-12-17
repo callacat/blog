@@ -76,7 +76,7 @@ docker attach oicq
 ```Shell
 docker stop oicq ##首先停止运行容器
 docker container rm oicq  ##删除容器
-docker imagerm dswang2233/oicq  ##删除镜像
+docker image rm dswang2233/oicq  ##删除镜像
 rm -rf "$(pwd)" ##删除映射目录
 ```
 

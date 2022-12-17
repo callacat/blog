@@ -93,7 +93,7 @@ docker restart cqhttp
 ```Shell
 docker stop cqhttp ##首先停止运行容器
 docker container rm cqhttp  ##删除容器
-docker imagerm dswang2233/gocqhttp  ##删除镜像
+docker image rm dswang2233/gocqhttp  ##删除镜像
 rm -rf "$(pwd)" ##删除映射目录
 ```
 
