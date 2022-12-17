@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,Docker"
 
 date: 2022-12-08T15:38:10+08:00
-lastmod: 2022-12-08T18:12:41+08:00
+lastmod: 2022-12-17 23:39:36+08:00
 
 categories:
   - 傻妞专题
