@@ -4,7 +4,7 @@ description: "仅分享新版傻妞使用记录，如有不对请指正"
 keywords: "傻妞,面板"
 
 date: 2022-12-08T15:33:02+08:00
-lastmod: 2022-12-08T15:55:33+08:00
+lastmod: 2022-12-18 22:20:20+08:00
 
 categories:
   - 傻妞专题
@@ -102,7 +102,7 @@ web自带交互窗口，类似ssh终端交互，在网页右下角有个会话�
 ```Shell
 #烟雨阁
 sub://T4EywWN46ztYBhHNdOl6Ts9noWPR5fdOLy28xo+UM95dQmu4JrSmPllYIfQ3eshgNsVbPuTo2eyNfDX7tDLrNxGYTGSGNDeGLMJpBxS6UnS9p6wOtAS8uFPFm3u+f0EW/VKNPYHAxRYIFP4j30qCGeHBwKhcuDiRbJfokC8oUU0=
-#红灯区
+#红灯区-已失效
 sub://T4EywWN46ztYBhHNdOl6TkE13/0LsDMMMxrMGyUvt9soogRtb7A7EGfdNQIjVeu2NHK38DucJa4jpNYfE7HSFccJIQP4Zx9GAAQqKscQvzEG+BOpX4JLr1y+iETeYJSF
 #nsv
 sub://T4EywWN46ztYBhHNdOl6TiMeJo942S95KUAFmcfYSpAK/538Kt1mKM0XQ2ecLGP+1QHmAXQpsQRnICMkp0A4hWHsocaAqAGlIrg1eV5clc6KRmtV+dAjOU8Ej00/vLAh
