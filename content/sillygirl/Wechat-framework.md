@@ -20,6 +20,6 @@ toc: true
 
 在win上安装软件还要教吗？分享一下我收集的软件就好了
 
-[下载地址](https://cloud.dswang.ga/OneDrive/win/%E5%BE%AE%E4%BF%A1%E6%A1%86%E6%9E%B6)
+[下载地址](https://cloud.dsdog.tk/OneDrive/win/%E5%BE%AE%E4%BF%A1%E6%A1%86%E6%9E%B6)
 
 暂时只有可爱猫和千寻
