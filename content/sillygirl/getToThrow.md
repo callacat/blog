@@ -132,7 +132,7 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtow
 docker stop sillyGirl ###首先停止运行容器
 docker container rm sillyGirl  ###删除容器
 docker image rm dswang2233/silly  ###删除镜像
-rm -rf "$(pwd)" ###删除映射目录
+#先cd到你创建的映射目录再执行 rm -rf "$(pwd)" ###删除映射目录
 ```
 
 ### 管理
